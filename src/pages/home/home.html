@@ -1,0 +1,76 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title  style="font-size:0.75em; font-family: 'Source Sans Pro', sans-serif; font-weight:400;">INGTed <div class="" style="color:#737373; font-size:0.75em; font-family: 'Open Sans', sans-serif; font-weight:200; ">      Materiales    </div></ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only color="royal" (click)="obj_user()">
+        <ion-icon name="contact"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding style>
+
+  <div style="padding:15px;" >
+  <h3 style="text-align: center; color: #40404B; font-family: 'Source Sans Pro', sans-serif; font-size: 20px;  font-weight: 400;">Calculadora de materiales</h3>
+
+  <p style="text-align:center; font-weight: 200; font-size:1em; color:#60677C;">
+    "Calcula tus materiales necesarios para la construccion de una manera facil e intuitiva"
+  </p>
+</div>
+
+  <ion-card class="CardClass">
+  <img src="./assets/Bloques modo Flat.png"/>
+  <ion-card-content>
+    <ion-card-title style="text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #474b4d;;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    ">
+      Muros de Bloques
+      </ion-card-title>
+    <p style="text-align: center;
+    text-rendering: optimizeLegibility;
+    color:#42535c;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 10px;">
+    Calcula tus materiales necesarios para la construccion de tus muros de bloques. 
+    </p>
+    <div style="text-align:center; ">
+      <button ion-button small (click)="openCalc()" >Calcular</button></div>
+    
+  </ion-card-content>
+</ion-card>
+  
+<ion-card class="CardClass">
+  <img src="./assets/Pisos  modo Flat.png"/>
+  <ion-card-content>
+    <ion-card-title style="text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #474b4d;;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    ">
+      Pisos
+      </ion-card-title>
+    <p style="text-align: center;
+    text-rendering: optimizeLegibility;
+    color:#42535c;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 10px;">
+    Calcula tus materiales necesarios para la construccion de tus Pisos. 
+    </p>
+    <div style="text-align:center; ">
+      <button ion-button small (click)="openCalc()" >Calcular</button></div>
+    
+  </ion-card-content>
+</ion-card>
+</ion-content>

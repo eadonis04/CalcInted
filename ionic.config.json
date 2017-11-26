@@ -1,0 +1,8 @@
+{
+  "name": "INGTed",
+  "app_id": "5ca80a57",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
